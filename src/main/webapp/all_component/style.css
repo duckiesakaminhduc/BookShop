@@ -1,0 +1,102 @@
+.nav-item a:hover {
+	color: white !important;
+	background-color: green;
+	border-radius: 20px;
+}
+
+.banner-img {
+	background: url("../image/banner.avif");
+	height: 60vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#banner {
+	margin-bottom: 20px;
+}
+
+.card img {
+	height: 15em;
+}
+
+#old-book {
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+#register {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
+}
+
+#register .container {
+	padding-top: 10px;
+	width: 40%;
+}
+
+#login {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
+}
+
+#login .container {
+	padding-top: 10px;
+	width: 40%;
+}
+
+/* ------------------------------------------------ */
+/* --------------------ADMIN----------------------- */
+.card-body .card-text i {
+	font-size: 10em;
+}
+
+#bar-admin a {
+	text-decoration: none;
+}
+
+#add_book {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 43%, rgba(0, 212, 255, 1) 100%);
+}
+
+#add_book .container {
+	padding-top: 10px;
+	width: 40%;
+}
+
+/* ------------------------------------------------ */
+#view-book {
+	text-decoration: none;
+}
+
+#contact {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#contact i {
+	font-size: 2em;
+}
+
+.cast a, .re-avaiable a, .freeship a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	color: brown;
+	font-weight: bold;
+}
+
